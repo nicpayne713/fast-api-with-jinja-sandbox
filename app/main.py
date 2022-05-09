@@ -3,11 +3,12 @@ from fastapi.responses import HTMLResponse
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
 
+from app.routers import unsplash
+
 from .library import openfile
 
 app = FastAPI()
 
-from app.routers import unsplash
 
 app.include_router(unsplash.router)
 
