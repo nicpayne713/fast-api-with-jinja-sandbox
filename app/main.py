@@ -7,6 +7,10 @@ from .library import openfile
 
 app = FastAPI()
 
+from app.routers import unsplash
+
+app.include_router(unsplash.router)
+
 templates = Jinja2Templates(directory="templates")
 app.mount("/static", StaticFiles(directory="static"), name="static")
 
