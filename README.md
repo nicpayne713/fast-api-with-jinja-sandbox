@@ -48,4 +48,9 @@ The tutorial Makes it very unclear where to add `{% set active_page = "unsplash"
 
 I made the change by just adding that one line underneath `{% extends "base.html" %}`
 
+### Adding Two Forms
 
+The tutorial has us add html to the twoforms.html and accordian.html before doing anything in python files and shows a working site in the sample video.
+However, Just adding to the html didn't give me nice pages I _guess_ because there's nothing in the relevant python files?
+
+I just fine the ordering of this tutorial really confusing... not well-laid out for a linear flow
