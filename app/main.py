@@ -1,7 +1,7 @@
-from fastapi import FastAPI, Request
-from fastapi.responses import HTMLResponse
-from fastapi.staticfiles import StaticFiles
-from fastapi.templating import Jinja2Templates
+from fastapi import FastAPI, Request  # type:ignore
+from fastapi.responses import HTMLResponse  # type:ignore
+from fastapi.staticfiles import StaticFiles  # type:ignore
+from fastapi.templating import Jinja2Templates  # type:ignore
 
 from app.routers import unsplash
 
